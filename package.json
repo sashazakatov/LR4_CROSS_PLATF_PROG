@@ -1,6 +1,6 @@
 {
-  "name": "lr4_cross_platf_prog",
-  "productName": "lr4_cross_platf_prog",
+  "name": "my-app2",
+  "productName": "my-app2",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -20,15 +20,16 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "30.0.6"
+    "electron": "^30.0.7"
   },
   "keywords": [],
   "author": {
-    "name": "Olexander Zakatov",
-    "email": "sashazakatov17@gmail.com"
+    "name": "Nic",
+    "email": "Nic@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
+    "@electron/remote": "^2.1.2",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
